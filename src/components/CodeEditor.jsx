@@ -5,14 +5,8 @@ import LanguageSelector from "./LanguageSelector";
 import { CODE_SNIPPETS } from "../constants";
 import Output from "./Output";
 import "./App.css";
-import { sendPromptToOpenAI } from "../utils/utils";
-import OpenAI from "openai";
+import { sendPromptToOpenAI } from "../utils/utils";import OpenAI from "openai";
 import axios from "axios";
-
-const openai = new OpenAI({
-  apiKey: "sk-proj-jjYw63pr49e2sVzOc3LHT3BlbkFJQZVCyIHOCwyhcbRiSlqF",
-  dangerouslyAllowBrowser: true,
-});
 
 const CodeEditor = () => {
   const editorRef = useRef();
