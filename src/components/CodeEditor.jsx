@@ -5,7 +5,6 @@ import LanguageSelector from "./LanguageSelector";
 import { CODE_SNIPPETS } from "../constants";
 import Output from "./Output";
 import "./App.css";
-import { sendPromptToOpenAI } from "../utils/utils";import OpenAI from "openai";
 import axios from "axios";
 
 const CodeEditor = () => {
