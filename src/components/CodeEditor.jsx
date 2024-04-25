@@ -52,7 +52,7 @@ const CodeEditor = () => {
         content: `we are using ${language} and send code wrapp in , ${prompt}`,
       },
       headers: {
-        "X-RapidAPI-Key": "01b8f016a8msh01231014e8653f0p126d1djsn0d94bf2547da",
+        "X-RapidAPI-Key": "73cfac98b4msh9e89f17e4aba2bcp18cc7fjsn9638ad657b97",
         "X-RapidAPI-Host": "chatgpt4-api.p.rapidapi.com",
       },
     };
